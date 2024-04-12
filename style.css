@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  }
+  body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container{
+    
+    padding:15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width:100%;
+    
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  form{
+    width:100%;
+  }
+  label{
+    margin-bottom: 8px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+  }
+  button[type="submit"],
+  button[type="cancel"]
+  {
+    border: none;
+    padding:10px 20px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  button[type="submit"]
+  {
+    background-color: #4E8FEA;
+    
+  }
+  button[type="submit"]:hover
+  {
+    background-color: #1d73ed;
+  
+  }
+  button[type="cancel"]
+  {
+    background-color:#CCD0D5;
+  
+  }
+  button[type="cancel"]:hover
+  {
+    background-color: #75787a;
+  
+  }
